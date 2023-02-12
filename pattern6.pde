@@ -14,11 +14,11 @@ public class Pattern6{
   
   protected void run(){//色形ベース
     if(this.start == 0) start = millis();
-    if( millis() - this.start > 300){
+    if( millis() - this.start > 2000){
       nowState.toSearch();
       this.start = 0;
       return;
-    } //<>//
+    } //<>// //<>//
     buttons = new SettingGameButtons();
     buttons.runStatic();
     noFill();

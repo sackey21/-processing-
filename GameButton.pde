@@ -16,7 +16,7 @@ public class GameButton extends Button{
       if(this.collect){
         count ++;
       //不正解に変えておく
-        this.setInCollect(); //<>// //<>//
+        this.setInCollect(); //<>// //<>// //<>//
         nowState.toClicked();
       }
      
